@@ -13,3 +13,17 @@ elif nombre < 0:
     print("Le nombre est négatif.")
 else:
     print("Le nombre est nul.")
+
+
+# %%
+
+# Exercice 2 : Créer un script qui demande l'âge de l'utilisateur et affiche s'il est majeur ou mineur.
+
+# Demande de l'âge de l'utilisateur
+age = int(input("Quel est votre âge ? "))
+
+# Vérification de la majorité
+if age >= 18:
+    print("Vous êtes majeur.")
+else:
+    print("Vous êtes mineur.")
