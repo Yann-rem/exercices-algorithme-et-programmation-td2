@@ -66,3 +66,16 @@ if average >= 10:
     print(f"L'étudiant a réussi avec une moyenne de {average:.2f}")
 else:
     print(f"L'étudiant a échoué avec une moyenne de {average:.2f}")
+
+# %%
+
+# Exercice 5 : Écrire un script qui prend un nombre en entrée et affiche "pair" ou "impair".
+
+# Demande d'un nombre à l'utilisateur
+number = int(input("Entrez un nombre : "))
+
+# Vérification de la parité
+if number % 2 == 0:
+    print(f"Le nombre {number} est pair.")
+else:
+    print(f"Le nombre {number} est impair.")
