@@ -1,6 +1,6 @@
 # %%
 
-# Exercice 1 : écrire un script Python qui demande un nombre à l'utilisateur et affiche s'il est
+# Exercice 1 : Écrire un script Python qui demande un nombre à l'utilisateur et affiche s'il est
 # positif, négatif ou nul.
 
 # Demander à l'utilisateur d'entrer un nombre
@@ -47,3 +47,22 @@ try:
 
 except ValueError:
     print("Veuillez entrer des nombres valides.")
+
+
+# %%
+
+# Exercice 4 : Créer un script qui calcule la moyenne de trois notes et affiche si l'étudiant a réussi (moyenne >= 10).
+
+# Demande des trois notes à l'utilisateur
+grade1 = float(input("Entrez la première note : "))
+grade2 = float(input("Entrez la deuxième note : "))
+grade3 = float(input("Entrez la troisième note : "))
+
+# Calcul de la moyenne
+average = (grade1 + grade2 + grade3) / 3
+
+# Affichage du résultat
+if average >= 10:
+    print(f"L'étudiant a réussi avec une moyenne de {average:.2f}")
+else:
+    print(f"L'étudiant a échoué avec une moyenne de {average:.2f}")
