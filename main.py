@@ -97,3 +97,22 @@ elif mois == 2:
     print("Ce mois comporte 28 jours (29 jours si année bissextile).")
 else:
     print("Numéro de mois invalide.")
+
+# %%
+
+# Exercice 7 : Écrire un script qui simule un login : demander un nom d'utilisateur et un mot de passe,
+# et afficher un message de bienvenue si les informations sont correctes.
+
+# Identifiants préenregistrés
+username_saved = "admin"
+password_saved = "1234"
+
+# Demande du nom d'utilisateur et du mot de passe
+username_input = input("Entrez votre nom d'utilisateur : ")
+password_input = input("Entrez votre mot de passe : ")
+
+# Vérification des informations
+if username_input == username_saved and password_input == password_saved:
+    print(f"Bienvenue, {username_input} !")
+else:
+    print("Nom d'utilisateur ou mot de passe incorrect.")
