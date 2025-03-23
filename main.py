@@ -79,3 +79,21 @@ if number % 2 == 0:
     print(f"Le nombre {number} est pair.")
 else:
     print(f"Le nombre {number} est impair.")
+
+
+# %%
+
+# Exercice 6 :  Créer un script qui demande un mois en entrée et affiche le nombre de jours dans ce mois.
+
+# Demande du mois à l'utilisateur
+mois = int(input("Entrez le numéro du mois (1-12) : "))
+
+# Détermination du nombre de jours
+if mois in [1, 3, 5, 7, 8, 10, 12]:
+    print("Ce mois comporte 31 jours.")
+elif mois in [4, 6, 9, 11]:
+    print("Ce mois comporte 30 jours.")
+elif mois == 2:
+    print("Ce mois comporte 28 jours (29 jours si année bissextile).")
+else:
+    print("Numéro de mois invalide.")
