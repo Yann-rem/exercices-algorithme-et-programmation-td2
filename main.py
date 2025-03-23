@@ -83,7 +83,7 @@ else:
 
 # %%
 
-# Exercice 6 :  Créer un script qui demande un mois en entrée et affiche le nombre de jours dans ce mois.
+# Exercice 6 : Créer un script qui demande un mois en entrée et affiche le nombre de jours dans ce mois.
 
 # Demande du mois à l'utilisateur
 mois = int(input("Entrez le numéro du mois (1-12) : "))
